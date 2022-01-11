@@ -1,0 +1,9 @@
+sys-cluster/ucx ~amd64
+sys-cluster/pmix ~amd64
+sys-libs/freeipmi ~amd64
+dev-util/nvidia-cuda-toolkit ~amd64
+dev-util/nvidia-cuda-sdk ~amd64
+x11-drivers/nvidia-drivers ~amd64
+dev-libs/libjwt ~amd64
+sys-libs/pam ~amd64
+sys-auth/munge ~amd64
