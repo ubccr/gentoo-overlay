@@ -87,7 +87,20 @@ Available targets for the LANG variable:
 $ eselect locale set 4
 ```
 
-7. Install packages from package set:
+7. Make sure that glibc is always compiled with a user-defined-trusted-dirs option
+
+```
+$ equery has --package glibc EXTRA_EMAKE
+(this should return nothing)
+
+# (Re)install glibc with the user-defined-trusted-dirs option
+$ EXTRA_EMAKE="user-defined-trusted-dirs=/eprefix/path/host_injections/[CCR_VERSION]/compat/linux/x86_64/lib" emerge --ask --oneshot sys-libs/glibc
+
+$ equery has --package glibc EXTRA_EMAKE
+user-defined-trusted-dirs=/eprefix/path/host_injections/[CCR_VERSION]/compat/linux/x86_64/lib
+```
+
+8. Install packages from package set:
 
 ```
 $ emerge --ask --update --newuse --deep --complete-graph --verbose @ubccr-2021.12-linux-x86_64
