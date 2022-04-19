@@ -15,4 +15,5 @@ dev-libs/libyaml
 net-libs/http-parser
 dev-libs/jansson
 dev-libs/libjwt::ubccr
+=sys-apps/archspec-0.1.3::ubccr
 dev-util/patchelf
