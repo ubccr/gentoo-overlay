@@ -1,5 +1,11 @@
 sys-apps/hwloc
+app-shells/bash-completion
 dev-python/GitPython
+dev-python/keyring
+dev-python/pip
+dev-python/pycodestyle
+dev-python/pyyaml
+dev-python/rich
 dev-libs/json-c
 sci-libs/hdf5
 sys-process/numactl
@@ -17,3 +23,6 @@ dev-libs/jansson
 dev-libs/libjwt::ubccr
 =sys-apps/archspec-0.1.3::ubccr
 dev-util/patchelf
+media-fonts/dejavu
+media-fonts/liberation-fonts
+sys-cluster/lmod
