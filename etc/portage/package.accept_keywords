@@ -9,6 +9,7 @@ sys-libs/pam ~amd64
 sys-auth/munge ~amd64
 sys-apps/archspec ~amd64
 dev-python/rich ~amd64
-media-fonts/dejavu ~x86-macos
-media-fonts/liberation-fonts ~amd64-linux
+media-fonts/dejavu ~amd64
+media-fonts/liberation-fonts ~amd64
 sys-cluster/lmod ~amd64
+dev-lua/luaposix ~amd64
