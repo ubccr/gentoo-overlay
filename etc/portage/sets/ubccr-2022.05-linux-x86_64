@@ -26,3 +26,4 @@ dev-util/patchelf
 media-fonts/dejavu
 media-fonts/liberation-fonts
 sys-cluster/lmod
+sys-cluster/rdma-core
