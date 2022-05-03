@@ -29,3 +29,4 @@ sys-cluster/lmod
 sys-cluster/rdma-core
 sys-apps/dbus
 dev-util/nvidia-cuda-toolkit
+=sys-fabric/opa-psm2-11.2.206::ubccr
