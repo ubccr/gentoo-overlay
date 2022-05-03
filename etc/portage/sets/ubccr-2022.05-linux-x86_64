@@ -28,3 +28,4 @@ media-fonts/liberation-fonts
 sys-cluster/lmod
 sys-cluster/rdma-core
 sys-apps/dbus
+dev-util/nvidia-cuda-toolkit
