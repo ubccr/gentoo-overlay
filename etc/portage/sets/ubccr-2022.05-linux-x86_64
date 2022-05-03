@@ -21,12 +21,10 @@ dev-python/pyyaml
 dev-python/rich
 dev-util/nvidia-cuda-toolkit
 dev-util/patchelf
-dev-util/pkgconfig
 dev-util/strace
 media-fonts/dejavu
 media-fonts/liberation-fonts
 net-dns/bind-tools
-net-misc/tigervnc
 net-libs/http-parser
 net-libs/libssh2
 sci-libs/hdf5
