@@ -24,6 +24,7 @@ dev-util/patchelf
 dev-util/strace
 media-fonts/dejavu
 media-fonts/liberation-fonts
+net-analyzer/traceroute
 net-dns/bind-tools
 net-libs/http-parser
 net-libs/libssh2
