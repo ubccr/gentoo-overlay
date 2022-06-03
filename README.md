@@ -103,7 +103,7 @@ user-defined-trusted-dirs=/eprefix/path/host_injections/[CCR_VERSION]/compat/lin
 8. Install packages from package set:
 
 ```
-$ emerge --ask --update --newuse --deep --complete-graph --verbose @ubccr-2021.12-linux-x86_64
+$ emerge --ask --update --newuse --deep --complete-graph --verbose @ubccr-2022.05-linux-x86_64
 ```
 
 ## See Also
