@@ -1,5 +1,6 @@
 app-arch/cpio
 app-arch/lz4
+app-arch/p7zip
 app-arch/pigz
 app-arch/zip
 app-editors/emacs
