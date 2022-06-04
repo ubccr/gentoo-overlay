@@ -39,6 +39,7 @@ sys-cluster/lmod
 sys-cluster/rdma-core
 sys-devel/bc
 =sys-fabric/opa-psm2-11.2.206::ubccr
+sys-fabric/perftest
 =sys-libs/freeipmi-1.6.8
 sys-libs/ncurses
 sys-libs/readline
