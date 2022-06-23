@@ -1,0 +1,12 @@
+Prevent AM_CONDITIONAL not defined error
+
+--- a/configure.ac
++++ b/configure.ac
+@@ -378,6 +378,7 @@ dnl
+ dnl Check for compilation of Slurm with CURL support:
+ dnl
+ LIBCURL_CHECK_CONFIG
++AM_CONDITIONAL(WITH_CURL, test x$_libcurl_with = xyes && test x$libcurl_cv_lib_curl_usable = xyes)
+ 
+ dnl Check word size so we can deprecate 32-bit systems
+ AC_CHECK_SIZEOF([void *], 8)
