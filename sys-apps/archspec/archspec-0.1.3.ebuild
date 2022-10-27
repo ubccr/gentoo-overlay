@@ -4,7 +4,7 @@
 EAPI=7
 
 PYTHON_COMPAT=( python3_{6..10} )
-DISTUTILS_USE_SETUPTOOLS=pyproject.toml
+DISTUTILS_USE_PEP517=poetry
 inherit distutils-r1
 
 DESCRIPTION="A library to query system architecture"
@@ -21,7 +21,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~arm64 ~ppc ~ppc64 ~sparc ~x86 ~x64-macos"
 
 RDEPEND=">dev-python/six-1.13[${PYTHON_USEDEP}]
-	<dev-python/click-8.0[${PYTHON_USEDEP}]"
+	>dev-python/click-8.0[${PYTHON_USEDEP}]"
 BDEPEND="test? (
 		dev-python/jsonschema[${PYTHON_USEDEP}]
 	)"
