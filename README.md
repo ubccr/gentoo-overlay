@@ -43,16 +43,16 @@ $ git clone https://github.com/ubccr/gentoo-overlay.git ubccr
 4.  Create these two files:
 
 ```
-$ cat $EPREFIX/etc/portage/repos.conf/ubccr.conf 
+$ vim $EPREFIX/etc/portage/repos.conf/ubccr.conf 
 [ubccr]
-location = /PATH/TO/EPREFIX/var/db/repos/ubccr
+location = /cvmfs/soft.ccr.buffalo.edu/versions/[VERSION]/compat/var/db/repos/ubccr
 sync-type = git
 sync-uri = https://github.com/ubccr/gentoo-overlay.git
 masters = gentoo
 priority = 50
 auto-sync = yes
 
-$ cat $EPREFIX/etc/portage/repos.conf/gentoo.conf 
+$ vim $EPREFIX/etc/portage/repos.conf/gentoo.conf 
 [gentoo]
 sync-type = webrsync
 auto-sync = no
@@ -61,10 +61,10 @@ auto-sync = no
 5. Add symlinks to portage configs:
 
 ```
-# symlink everything in etc/portage to $EPREFIX/etc/portage
-$ ln etc/portage/package.* $EPREFIX/etc/portage/
-$ ln etc/portage/sets $EPREFIX/etc/portage/sets
-$ ln etc/portage/env $EPREFIX/etc/portage/env
+$ cd $EPREFIX/etc/portage
+$ ln -s $EPREFIX/var/db/repos/ubccr/etc/portage/package.* .
+$ ln -s $EPREFIX/var/db/repos/ubccr/etc/portage/sets .
+$ ln -s $EPREFIX/var/db/repos/ubccr/etc/portage/env .
 ```
 
 6.  Fix locale in EPREFIX:
@@ -103,7 +103,7 @@ user-defined-trusted-dirs=/eprefix/path/host_injections/[CCR_VERSION]/compat/lin
 8. Install packages from package set:
 
 ```
-$ emerge --ask --update --newuse --deep --complete-graph --verbose @ubccr-2022.05-linux-x86_64
+$ emerge --ask --update --newuse --deep --complete-graph --verbose @ubccr-VERSION-linux-x86_64
 ```
 
 ## See Also
