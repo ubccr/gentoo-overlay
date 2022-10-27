@@ -1,1 +1,4 @@
+# make sure that gold linker is installed with binutils
+sys-devel/binutils gold
+
 sys-block/fio   aio
