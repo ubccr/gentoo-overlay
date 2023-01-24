@@ -21,7 +21,6 @@ dev-python/pip
 dev-python/pycodestyle
 dev-python/pyyaml
 dev-python/rich
-dev-util/nvidia-cuda-toolkit
 dev-util/patchelf
 dev-util/strace
 media-fonts/dejavu
