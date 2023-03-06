@@ -2,3 +2,14 @@
 sys-devel/binutils gold
 
 sys-block/fio   aio
+
+x11-base/xorg-server xvfb
+x11-libs/cairo X
+media-libs/libglvnd X
+dev-libs/libdbusmenu gtk3
+xfce-base/thunar udisks
+gnome-base/gvfs udisks
+app-crypt/gcr gtk
+xfce-base/xfce4-session -xscreensaver
+xfce-base/thunar -udisks
+gnome-base/gvfs -udisks
