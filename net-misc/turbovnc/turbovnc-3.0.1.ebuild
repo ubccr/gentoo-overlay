@@ -57,6 +57,7 @@ src_prepare() {
 
 src_configure() {
 	local mycmakeargs=(
+		-DCMAKE_SYSROOT=$EPREFIX
 		-DTVNC_SYSTEMX11=ON
 		-DTVNC_SYSTEMLIBS=ON
 		-DTVNC_BUILDVIEWER=$(usex java)
