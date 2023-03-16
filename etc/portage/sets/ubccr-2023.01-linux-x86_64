@@ -50,5 +50,4 @@ sys-process/parallel
 x11-terms/kitty-terminfo
 xfce-base/xfce4-meta
 www-apps/novnc
-net-misc/turbovnc
-x11-misc/virtualgl
+x11-libs/libXft
