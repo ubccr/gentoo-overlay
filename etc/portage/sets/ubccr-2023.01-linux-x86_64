@@ -52,3 +52,4 @@ x11-terms/kitty-terminfo
 xfce-base/xfce4-meta
 www-apps/novnc
 x11-libs/libXft
+x11-libs/libXtst
