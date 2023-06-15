@@ -16,6 +16,7 @@ dev-libs/jansson
 dev-libs/json-c
 dev-libs/libjwt::ubccr
 dev-libs/libyaml
+dev-libs/nss
 dev-python/GitPython
 dev-python/pip
 dev-python/pycodestyle
@@ -25,10 +26,12 @@ dev-util/patchelf
 dev-util/strace
 media-fonts/dejavu
 media-fonts/liberation-fonts
+media-libs/alsa-lib
 net-analyzer/traceroute
 net-dns/bind-tools
 net-libs/http-parser
 net-libs/libssh2
+net-print/cups
 sci-libs/hdf5
 sys-block/fio
 =sys-apps/archspec-0.1.3::ubccr
