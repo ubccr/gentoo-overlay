@@ -10,6 +10,7 @@ app-misc/jq
 app-misc/screen
 app-misc/tmux
 app-shells/bash-completion
+dev-libs/argtable
 dev-libs/libaio
 dev-libs/glib
 dev-libs/jansson
