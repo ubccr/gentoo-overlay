@@ -230,6 +230,12 @@ pkg_postinst() {
 
 	tmpfiles_process slurm.conf
 
+	if cd "${EROOT}"/usr/share/${PN} 2>/dev/null ; then
+		if [ -d lib64 ] ; then
+			ln -s lib64 lib || die
+		fi
+	fi
+
 	elog "Please visit the file '/usr/share/doc/${P}/html/configurator.html"
 	elog "through a (javascript enabled) browser to create a configureation file."
 	elog "Copy that file to /etc/slurm/slurm.conf on all nodes (including the headnode) of your cluster."
