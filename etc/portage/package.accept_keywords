@@ -14,3 +14,5 @@ dev-lang/rust ~amd64
 =x11-themes/adwaita-icon-theme-43_p1 ~amd64
 net-misc/turbovnc ~amd64
 x11-misc/virtualgl ~amd64
+=dev-libs/apr-1.7.4-r1 ~amd64
+=dev-libs/apr-util-1.6.3 ~amd64

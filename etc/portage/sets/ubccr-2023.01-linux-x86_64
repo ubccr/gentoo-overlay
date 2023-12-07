@@ -25,6 +25,7 @@ dev-python/pyyaml
 dev-python/rich
 dev-util/patchelf
 dev-util/strace
+dev-vcs/subversion
 media-fonts/dejavu
 media-fonts/liberation-fonts
 media-libs/alsa-lib
