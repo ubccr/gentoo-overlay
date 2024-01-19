@@ -55,6 +55,7 @@ sys-process/htop
 sys-process/lsof
 sys-process/numactl
 sys-process/parallel
+sys-process/time
 x11-terms/kitty-terminfo
 xfce-base/xfce4-meta
 www-apps/novnc
