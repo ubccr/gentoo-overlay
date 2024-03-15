@@ -50,6 +50,7 @@ sys-fabric/perftest
 =sys-libs/freeipmi-1.6.10
 sys-libs/pam
 sys-libs/ncurses
+sys-libs/ncurses-compat
 sys-libs/readline
 sys-process/htop
 sys-process/lsof
