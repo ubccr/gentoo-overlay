@@ -10,6 +10,8 @@ app-misc/jq
 app-misc/screen
 app-misc/tmux
 app-shells/bash-completion
+app-shells/ksh
+app-shells/tcsh
 app-text/dos2unix
 dev-libs/argtable
 dev-libs/libaio

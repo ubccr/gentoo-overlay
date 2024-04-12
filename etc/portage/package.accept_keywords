@@ -1,3 +1,4 @@
+app-shells/ksh ~amd64
 sys-cluster/ucx ~amd64
 sys-cluster/pmix ~amd64
 sys-libs/freeipmi ~amd64
