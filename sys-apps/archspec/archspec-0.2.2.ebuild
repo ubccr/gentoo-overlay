@@ -1,12 +1,12 @@
 # Copyright 1999-2021 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=7
+EAPI=8
 
 # added: see https://projects.gentoo.org/python/guide/distutils.html#basic-use-pep-517-mode
 DISTUTILS_USE_PEP517=poetry
 
-PYTHON_COMPAT=( python3_{6..11} )
+PYTHON_COMPAT=( python3_{7..11} )
 inherit distutils-r1
 
 DESCRIPTION="A library to query system architecture"
@@ -22,8 +22,6 @@ LICENSE="|| ( Apache-2.0 MIT )"
 SLOT="0"
 KEYWORDS="~amd64 ~arm64 ~ppc ~ppc64 ~riscv ~sparc ~x86 ~x64-macos"
 
-RDEPEND=">dev-python/six-1.13[${PYTHON_USEDEP}]
-	=dev-python/click-8.1.3[${PYTHON_USEDEP}]"
 BDEPEND="test? (
 		dev-python/jsonschema[${PYTHON_USEDEP}]
 	)"
