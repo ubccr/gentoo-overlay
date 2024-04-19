@@ -1,5 +1,8 @@
+sys-devel/binutils gold
+sys-block/fio   aio
+sys-auth/sssd -daemon -man
+
 # only install Python 3.11
 */* PYTHON_TARGETS: -* python3_11
 */* PYTHON_SINGLE_TARGET: -* python3_11
 
-sys-block/fio   aio
