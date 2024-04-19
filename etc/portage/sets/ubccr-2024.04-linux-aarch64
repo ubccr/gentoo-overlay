@@ -8,12 +8,14 @@ dev-python/pycodestyle
 dev-python/pyyaml
 dev-python/rich
 =dev-python/uri-template-1.2.0-r1::ubccr
+=dev-util/direnv-2.32.2::ubccr
 dev-util/patchelf
 media-fonts/dejavu
 media-fonts/liberation-fonts
 media-libs/alsa-lib
 =sys-apps/archspec-0.2.2::ubccr
 sys-apps/dbus
+=sys-auth/sssd-2.8.2::ubccr
 sys-cluster/lmod
 sys-cluster/rdma-core
 sys-libs/ncurses
