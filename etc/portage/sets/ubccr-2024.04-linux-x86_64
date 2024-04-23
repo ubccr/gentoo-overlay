@@ -57,6 +57,7 @@ sys-apps/lsb-release
 sys-cluster/lmod
 sys-cluster/rdma-core
 sys-devel/bc
+=sys-fabric/opa-psm2-11.2.205::ubccr
 sys-libs/pam
 sys-libs/ncurses
 sys-libs/ncurses-compat
