@@ -14,3 +14,4 @@ net-libs/glib-networking -libproxy
 app-text/xmlto text
 net-misc/turbovnc -viewer
 dev-util/desktop-file-utils -emacs
+gnome-base/librsvg -vala
