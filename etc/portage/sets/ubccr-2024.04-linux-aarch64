@@ -10,6 +10,7 @@ dev-python/pyyaml
 dev-python/rich
 =dev-python/uri-template-1.2.0-r1::ubccr
 =dev-util/direnv-2.32.2::ubccr
+=dev-util/patchelf-0.15.0::ubccr
 dev-util/patchelf
 media-fonts/dejavu
 media-fonts/liberation-fonts
