@@ -6,20 +6,9 @@ sys-devel/binutils gold
 sys-block/fio   aio
 sys-auth/sssd -daemon -man
 
-x11-base/xorg-server xvfb
-x11-libs/cairo X
-media-libs/libglvnd X
 dev-libs/libdbusmenu gtk3
-xfce-base/thunar udisks
-gnome-base/gvfs udisks
-app-crypt/gcr gtk
-xfce-base/xfce4-session X -xscreensaver
-xfce-base/xfce4-settings X
-x11-terms/xfce4-terminal X
-xfce-base/xfdesktop X
-xfce-base/libxfce4windowing X
+xfce-base/xfce4-session -xscreensaver
 xfce-base/thunar -udisks
-xfce-base/libxfce4ui X
-xfce-base/xfce4-panel X
 gnome-base/gvfs -udisks
 net-libs/glib-networking -libproxy
+app-text/xmlto text
