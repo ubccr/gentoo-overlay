@@ -28,6 +28,8 @@ dev-vcs/subversion
 media-fonts/dejavu
 media-fonts/liberation-fonts
 media-libs/alsa-lib
+=media-libs/libglvnd-1.7.0::ubccr
+=net-misc/turbovnc-3.1.1::ubccr
 net-print/cups
 =sys-apps/archspec-0.2.2::ubccr
 sys-apps/dbus

@@ -12,3 +12,4 @@ xfce-base/thunar -udisks
 gnome-base/gvfs -udisks
 net-libs/glib-networking -libproxy
 app-text/xmlto text
+net-misc/turbovnc -viewer

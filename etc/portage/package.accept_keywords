@@ -6,3 +6,5 @@ dev-util/direnv ~amd64
 app-shells/ksh ~amd64
 sys-apps/archspec ~amd64
 dev-util/hermes ~amd64
+net-misc/turbovnc ~amd64
+x11-misc/virtualgl ~amd64
