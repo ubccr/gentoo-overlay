@@ -26,6 +26,7 @@ dev-python/pip
 dev-python/pycodestyle
 dev-python/pyyaml
 dev-python/rich
+dev-util/libtree
 dev-util/patchelf
 dev-util/strace
 dev-vcs/subversion

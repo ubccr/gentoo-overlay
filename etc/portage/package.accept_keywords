@@ -17,3 +17,4 @@ net-misc/turbovnc ~amd64
 x11-misc/virtualgl ~amd64
 =dev-libs/apr-1.7.4-r1 ~amd64
 =dev-libs/apr-util-1.6.3 ~amd64
+dev-util/libtree ~amd64
