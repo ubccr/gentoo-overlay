@@ -51,6 +51,7 @@ sys-devel/bc
 =sys-fabric/opa-psm2-11.2.206::ubccr
 sys-fabric/perftest
 =sys-libs/freeipmi-1.6.10
+=sys-libs/glibc-2.38-r13
 sys-libs/pam
 sys-libs/ncurses
 sys-libs/ncurses-compat
