@@ -38,7 +38,7 @@ sys-apps/lsb-release
 =sys-auth/sssd-2.8.2::ubccr
 sys-block/fio
 sys-cluster/lmod
-sys-cluster/rdma-core
+=sys-cluster/rdma-core-45.5::ubccr
 sys-devel/bc
 =sys-fabric/opa-psm2-11.2.205::ubccr
 sys-libs/ncurses
