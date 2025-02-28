@@ -36,6 +36,7 @@ sys-apps/dbus
 sys-apps/hwloc
 sys-apps/lsb-release
 =sys-auth/sssd-2.8.2::ubccr
+=sys-auth/munge-0.5.15::ubccr
 sys-block/fio
 sys-cluster/lmod
 =sys-cluster/rdma-core-45.5::ubccr
